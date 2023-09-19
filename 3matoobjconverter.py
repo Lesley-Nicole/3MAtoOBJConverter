@@ -19,14 +19,16 @@ HOW TO USE:
 
 import json
 
+debug=True
+
 # change the file type of the 3ma file to json and load it as json
-filename_3ma = "C:\\filepath\\filename.json"
+filename_3ma = "D:\\Github-Desk-Files\\AA-Lockout\\3MAtoOBJConverter\\pantsuit.json"
 
 file_3ma = open(filename_3ma)
 
 fjile_3ma = json.loads(file_3ma.read())
 
-fout = open("C:\\filepath\\filename.obj","wt")
+fout = open("D:\\Github-Desk-Files\\AA-Lockout\\3MAtoOBJConverter\\pantsuit.obj","wt")
 
 vertex_index = 0
 prev_vertex_index = vertex_index
